@@ -84,6 +84,7 @@ void Cleaner::Stop() {
     } else {
         PrintMessage() << "Already stopped";
     }
+    Canceller.Reset();
 }
 
 Message Cleaner::PrintMessage() {
