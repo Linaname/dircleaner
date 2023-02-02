@@ -1,0 +1,5 @@
+3600
+
+directory_path|mask.ext|3600
+directory2|*.j*g|60
+directory3|*screen*.*|0
