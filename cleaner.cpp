@@ -53,6 +53,7 @@ void Cleaner::Run() {
             return;
         } else {
             RunThread.join();
+            Canceller.Reset();
         }
     }
     RunThread = std::thread([this](){
